@@ -1,2 +1,0 @@
-Adafruit CircuitPython 7.0.0-dirty on 2021-10-23; BLE-SS dev board Multi Sensor with nRF52840
-Board ID:isp1807micro
