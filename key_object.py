@@ -24,6 +24,7 @@ class MT():
         if not self.executed and self.diff > TAPPIG_TERM:
             kbd.press(self.modkc)
             self.executed = True
+            print('MT executed')
         #print(self.diff)
 
 class LT(MT):
