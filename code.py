@@ -106,5 +106,5 @@ while True:
             h.tick(k)
         for lt in LT_list:
             lt.tick(layer)
-        time.sleep(0.01)
+        #time.sleep(0.01)
     ble.start_advertising(advertisement)
