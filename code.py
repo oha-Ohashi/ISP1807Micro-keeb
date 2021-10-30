@@ -34,7 +34,7 @@ ble.start_advertising(advertisement, scan_response)
 print(dir(board))
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
-for i in range(1):
+for i in range(3):
     led.value = False
     time.sleep(0.3)
     led.value = True
