@@ -1,6 +1,6 @@
 import time
 
-TAPPIG_TERM = 150
+TAPPIG_TERM = 290
 class MT():
     def __init__(self, modkc, kc):
         self.diff = 0
