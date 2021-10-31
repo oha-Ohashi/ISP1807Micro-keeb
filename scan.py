@@ -3,9 +3,6 @@ import time
 import digitalio
 
 class Scan:
-    ROW_SLEEP = 0.000
-    DEBOUNCE = 0.000
-    INTERVAL = 0.000
     def __init__(self, row_pins=[], col_pins=[], row2col=True):
         self.row_pins = []
         self.col_pins = []
@@ -33,6 +30,9 @@ class Scan:
         self.row_length = len(self.row_pins);
         self.values = [True for _ in range(self.col_length * self.row_length)]
 
+    ROW_SLEEP = 0.000
+    DEBOUNCE = 0.000
+    INTERVAL = 0.000
     rap = 0
     def scan(self, pr):
         if self.row2col:
